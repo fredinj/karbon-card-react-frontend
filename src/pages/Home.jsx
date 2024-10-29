@@ -39,7 +39,7 @@ function Home() {
 
     try {
       const res = await axios.post(
-        'https://karbon-card-flask-api.onrender.com/api/upload-data',
+        'https://karbon.autone.live/api/upload-data',
         formData,
         {
           headers: {
